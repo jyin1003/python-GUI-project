@@ -535,8 +535,7 @@ def main() -> None:
         map file. """
     root = tk.Tk()
     root.geometry('{0}x{1}'.format(str(FARM_WIDTH + INVENTORY_WIDTH), \
-                                str(FARM_WIDTH+INFO_BAR_HEIGHT+BANNER_HEIGHT)))
-    #height of button is 35
+                                str(FARM_WIDTH+INFO_BAR_HEIGHT+BANNER_HEIGHT+35)))
     play_game(root, 'maps/map1.txt')
     
 
